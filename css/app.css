@@ -1,0 +1,135 @@
+body{
+    background-image: url(https://www.siemreap.net/wp-content/uploads/2018/08/Best-Khmer-Restaurants-in-Siem-Reap-Malis-Siemreapnet.jpg);
+    background-size: cover;
+}
+#favorite-food{
+    text-align: center;
+    background: rgb(202, 89, 89);
+    padding: 5%;
+    margin-right: 20%;
+    margin-left: 20%;
+    color: #ccc;
+    
+}
+.update{
+    margin-top: 5px;
+}
+#update-value{
+    width: 20%;
+    padding: 5px;
+    border-radius: 10px;
+   outline: none;
+}
+#search-food {
+    padding: 10px;
+    width: 50%;
+}
+
+#btn-show{
+    background: rgb(248, 130, 130);
+    width: 400px;
+    padding: 15px;
+    margin-left: 35%;
+
+    color: white;
+    margin-top: 5px;
+    border-radius: 15px;
+    outline: none;
+}
+
+#wrapper{
+    box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;  	
+    font-family: Open Sans;
+    background-color: white;
+    display: none;
+    
+}
+
+
+#search-food input[type=text]{
+    width: 50%;
+}
+.button-add{
+    background: grey;
+    padding: 15px;
+    width: 200px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border:none;
+    margin-left: 30%;
+    border-radius: 6px;
+    box-shadow: 4px 4px 4px brown;
+    cursor: pointer;
+    outline: none;
+    color: white;
+}
+.button-add:hover{
+    background: rgb(223, 82, 82);
+}
+
+
+#choose{
+    justify-content: space-around;
+    display: flex;
+    
+}
+.manu{
+    background: brown;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 5px;
+    color:white;
+}
+
+#search-food input{
+    width: 130px;   
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+
+#add-food-textfield,
+#write-cost,
+#choose-date,
+#sms
+{
+    width: 95%;
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+
+
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px;
+    background-color: #ccc;
+    margin-top: 30px;
+}
+.remove{
+    border-radius: 2px;
+    background-color:brown;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;  	
+    padding: 10px;
+}
+.remove:hover{
+    background:rgb(223, 82, 82) ;
+}
+
+
+.result{
+    width: 50%;
+    margin: auto;
+    display: none;
+    
+}

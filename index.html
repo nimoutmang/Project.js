@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/app.js" defer></script>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <form id="favorite-food">
+        <h1>Favorite Food</h1>
+        <div class="search">
+            <input type="text" id="search-food" placeholder="search food...">
+        </div>
+        <!-- <div class="update">
+            <button type="button" onclick="update()" id="update-value" >Update</button>
+
+        </div> -->
+    </form>
+    <div class="container">
+        <div class="btn-group">
+        
+        <button type="button" id="btn-show" onclick="buttonShow ()">ShowForm</button>
+    </div>
+    </div>
+    
+    <div id="wrapper">
+        <div class="manu">
+            <h1>FOOD LIST !!</h1>
+        </div><br>
+        <div class="text">
+            <h4>Food for eat:</h4>
+            <div class="add-food">
+                <input  type="text" id="add-food-textfield" placeholder="Add food......">
+            </div>
+        </div>
+        <div class="choice">
+            <h4>Time for food:</h4>
+            <form id="choose">
+                <input type="radio" name="chooseSelect" value="Breafast">Breafast
+                <input type="radio" name="chooseSelect" value="Lunch">Lunch
+                <input type="radio" name="chooseSelect" value="Dinner">Dinner
+            </form>
+        </div>
+        <div class="number">
+            <h4>price for food:</h4>
+            <form class="cost-food">
+                <input id="write-cost" type="number" placeholder="price for foor...">
+            </form>
+        </div>
+        <div>
+            <form class="date">
+                <h4>Date:</h4>
+                <input id="choose-date" type="date" placeholder="mm/dd/yyyy....">
+            </form>
+        </div>
+        <div class="message">
+            <h4>Message!!!</h4>
+            <textarea name="message" id="sms" cols="45" rows="5"  placeholder="Write your message...."></textarea>
+        </div>
+
+        <button class="button-add">ADDItem+</button>
+
+        
+        
+    </div>
+    <!-- <form action="" id="search-food">
+            <input type="text" id="myInput" placeholder="Search for food...">
+        </form> -->
+    <div class="result">
+        <div class="food-list">
+            
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
